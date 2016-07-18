@@ -7,17 +7,24 @@
     <link rel="stylesheet" href="css/style.css" media="screen" charset="utf-8">
   </head>
   <body>
-    <div class="main">
-      <div class="logo">Fitness</div>
-      <div class="header">
-        <ul class="menu clearfix">
-          <li><a href="#">Главная</a></li>
-          <li><a href="#">Товары</a></li>
-          <li><a href="#">О нас</a></li>
-          <li><a href="#">Контакты</a></li>
-        </ul>
-      </div>
-      <div class="container clearfix">
+    <div class="container">
+      <header>
+        <div class="logo">
+          <!-- <a href="#">
+            <img src="http://placehold.it/145x40" alt="Fitness" />
+          </a> -->
+          Fitness
+        </div>
+        <nav>
+          <ul class="menu clearfix">
+            <li><a href="#">Главная</a></li>
+            <li><a href="#">Товары</a></li>
+            <li><a href="#">О нас</a></li>
+            <li><a href="#">Контакты</a></li>
+          </ul>
+        </nav>
+      </header>
+      <main class="clearfix">
         <div class="sidebar">
           <ul class="product-menu">
             <li><a href="#">Ноутбуки</a></li>
@@ -28,8 +35,8 @@
             <li><a href="#">Автотовары</a></li>
           </ul>
         </div>
-        <div class="content">
-          <figure class="product-view">
+        <div class="product-view">
+          <figure>
             <div class="product-border">
               <img class="product-img" src="img/bike.jpg" alt="Bike" />
             </div>
@@ -38,14 +45,14 @@
             </legend>
           </figure>
         </div>
-      </div>
-      <div class="footer">
+      </main>
+      <footer>
         <a href="#">Главная</a>
         <a href="#">Товары</a>
         <a href="#">О нас</a>
         <a href="#">Контакты</a>
         <span class="right">2014 &copy; All rights reserved</span>
-      </div>
+      </footer>
     </div>
   </body>
 </html>
